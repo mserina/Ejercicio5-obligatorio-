@@ -43,6 +43,8 @@ namespace Ejercicio5Mix_obligatorio_{
                         break;
                     case 2:
                         añoGuardado = añ.año(año);
+
+                        //Con este if, se mostrara los dias que tiene febrero dependiendo de si el año es bisiesto
                         if (añoGuardado == "y")
                         {
                             Console.WriteLine("Tiene 29 dias");
